@@ -1,0 +1,27 @@
+.body{
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-image: url("../img/blue-space-background-with-stars-and-sparkles-night-dark-gradient-universe-winter-cosmic-dreamy-backdrop-dreamy-abstract-wallpaper-vector.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.spaceship{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+height: 120px;
+width: 100px;
+background-image: url("../img/spaceship.png");
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+border: solid 1px black;
+}
